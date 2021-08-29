@@ -19,18 +19,18 @@ Ready to clone and use. If you have already a working python installation, it co
 Normally, it's also good practice to setup a virtual environment and install other requirements, but this is a very simple project where any typical python installation will do.
 
 ```
-$ git clone https://github.com/cemar-ortiz/TDD_with_python
+git clone https://github.com/cemar-ortiz/TDD_with_python
 ```
 
 The layout of the tests and modules is made so you can run the tests on a terminal using:
 
 ```
 # You can run a full test module
-$ python -m unittest tests.<test_module>
+python -m unittest tests.<test_module>
 ```
 ```
 # Or even a single test method
-$ python -m unittest tests.<test_module>.<test_method>
+python -m unittest tests.<test_module>.<test_method>
 ```
 ```
 # To run all tests (modules or packages named as test*.py)
